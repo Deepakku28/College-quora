@@ -1,0 +1,188 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-logo {
+  color: #8f1f1b;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  padding-bottom: 8px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-icon > .MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+  font-size: xx-large;
+  padding: 5px 20px;
+}
+
+.navbar-icon > .MuiSvgIcon-root:hover {
+  color: #8f1f1b;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.navbar-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar-input > input {
+  border-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+
+.navbar-input > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.navbar-remain {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.navbar-avatar {
+  cursor: pointer;
+}
+
+.navbar-remain > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.navbar-remain > .MuiSvgIcon-root:hover {
+  color: #8f1f1b;
+}
+
+.navbar-remain > .MuiButton-root {
+  color: white;
+  margin-left: 25px;
+  cursor: pointer;
+  background-color: #8f1f1b;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-remain > .MuiButton-root:hover {
+  background-color: #b92b27;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal-title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal-title > h5:hover {
+  color: #b92b27;
+}
+
+.modal-info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal-info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.modal-info > .modal-scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal-field > .modal-fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal-field > .modal-fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid lightgray;
+}
+
+.modal-buttons > .cancle {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.modal-buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: rgb(0, 64, 255);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
